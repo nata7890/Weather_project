@@ -9,23 +9,43 @@
         <header>
             <h1>Weather for everyone</h1>
             <form>
-                <fieldset>
-                    <input type="search" name="find_location" placeholder = "Choose a location"/>
-                    <input type="image" src = "images/search-icon.png" value="Search" onclick = "" name = "search"/>
-                </fieldset>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href = "index.html">Weather now</a>
-                        </li>
-                        <li>
-                            <a href = "month.html">Weather by month</a> 
-                        </li>
-                        <li class = "active">Compare weather by location</li>
-                    </ul>
-                </nav>    
+                <input type="search" name="find_location" placeholder = "Choose a location" autofocus class = "search" />
+                <button type="submit" value="Search" onclick = "" name = "search" class = "search-button" ><img src="images/search-icon.png" /></button>
             </form>
-            
+			<nav>
+                <ul>
+                    <li>
+                        <a href = "index.html">Weather now</a>
+                    </li>
+                    <li>
+                        <a href = "month.html">Weather by month</a> 
+                    </li>
+                    <li class = "active">Compare weather by location</li>
+                </ul>
+            </nav>    
         </header>
+        <div class = "main">
+            <table>
+                <tr>
+                    <th>Location</th>
+                    <th>Today</th>
+                    <th>Tomorrow</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
     </body>
 </html>
