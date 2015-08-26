@@ -7,6 +7,7 @@
     </head>
     <body>
         <header>
+		<div id = "header">
             <h1>Weather for everyone</h1>
             <form>
                 <input type="search" name="find_location" placeholder = "Choose a location" autofocus class = "search" />
@@ -15,35 +16,52 @@
 			<nav>
                 <ul>
                     <li>
-                        <a href = "index.html">Weather now</a>
+                        <a href = "index.html">For a weak</a>
                     </li>
                     <li>
-                        <a href = "month.html">Weather by month</a> 
+                        <a href = "month.html">For a month</a> 
                     </li>
-                    <li class = "active">Compare weather by location</li>
+                    <li class = "active">By locations</li>
                 </ul>
             </nav>    
+        </div>    
         </header>
-        <div class = "main">
+        <div id = "wrapper" class = "main">
             <table>
                 <tr>
-                    <th>Location</th>
+                    <th class = "first-top">Location</th>
                     <th>Today</th>
                     <th>Tomorrow</th>
                     <th></th>
-                    <th></th>
+                    <th class = "last-top"></th>
                 </tr>
                 <tr>
                     <td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
                 </tr>
                 <tr>
                     <td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
                 </tr>
                 <tr>
                     <td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td class = "first-bottom"></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class = "last-bottom"></td>
                 </tr>
             </table>
         </div>
