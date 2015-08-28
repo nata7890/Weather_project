@@ -8,7 +8,7 @@
     <body>
 		<header>
 		<div id = "header">
-            <h1>Weather for everyone</h1>
+            <h1><img src = "images/logo.png" alt = "Weather for everyone logo" class = "logo" ></h1>
             <form>
                 <input type="search" name="find_location" placeholder = "Choose a location" autofocus class = "search" />
                 <button type="submit" value="Search" onclick = "" name = "search" class = "search-button" ><img src="images/search-icon.png" /></button>
@@ -29,25 +29,63 @@
         <div id = "wrapper">
 			<table>
 				<tr>
-					<td id = "first-td" class = "first-top first-bottom" rowspan = "6">Today</td>
-					<td class = "last-top">Tomorrow</td>
+					<td id = "first-td" class = "first-top first-bottom" rowspan = "6">
+						<h2 class = "location"></h2>
+						<h2>Today</h2>
+						<img src = "" id = "main_image">
+						<p id = "C_at_the_moment">C</p>
+						<p id = "F_at_the_moment">F</p>
+						<section>
+							<p id = "condition"></p>
+							<p id = "C_high_low">C</p>
+							<p id = "F_high_low">F</p>
+							<ul class = "descriptions">
+							</ul>
+						</section>
+						<section>
+							<h3 id = "wind">Wind</h3>
+							<ul class = "descriptions">
+							</ul>
+						</section>
+					</td>
+					<td class = "last-top">
+						<p>Tomorrow</p>
+						<img src = "" class = "weather_icon">
+					</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td>
+						<p></p>
+						<img src = "" class = "weather_icon">
+					</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td>
+						<p></p>
+						<img src = "" class = "weather_icon">
+					</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td>
+						<p></p>
+						<img src = "" class = "weather_icon">
+					</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td>
+						<p></p>
+						<img src = "" class = "weather_icon">
+					</td>
 				</tr>
 				<tr>
-					<td class = "last-bottom"></td>
+					<td class = "last-bottom">
+						<p></p>
+						<img src = "" class = "weather_icon">
+					</td>
 				</tr>
 			</table>
         </div>
+		<footer>
+		</footer>
 	</body>
 </html>
